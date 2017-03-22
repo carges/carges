@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
-
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  text-align: center;
+  background-color: rgb(1, 19, 38);
+  color: white;
+}
 body {
   font-family: 'PT Serif', serif;
   padding-top: 50px;
@@ -34,12 +51,6 @@ td {
   color: rgb(230, 135, 0);
   padding-top: 50px;
   padding-bottom: 50px;
-}
-.myfooter {
-  background-color: rgb(1, 19, 38);
-  color: white;
-  padding: 30px;
-  margin-top: 30px;
 }
 .myimg {
   box-shadow: 0 0 5px rgb(101, 97, 94);
