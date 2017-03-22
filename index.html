@@ -1,3 +1,106 @@
 <html>
-  <h1>My page 1</h1>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.7.0/animate.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Page title -->
+    <title>Carges Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><em>Carges</em></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+              <li><a href="#about-anchor">About</a></li>
+              <li><a href="#portfolio-anchor">Portfolio</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#contact-anchor">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+
+    <a href="" id="contact-anchor"></a>
+    <div class="row center-block mydiv-title">
+      <div class="container">
+        <h1>
+          Carges<br>Portfolio<br>
+          <div class="btn-group" role="group" aria-label="...">
+            <a href="https://www.freecodecamp.com/carges" target="_blank"><button type="button" class="btn btn-lg btn-warning"><i class="fa fa-free-code-camp"></i> Freecodecamp</button></a>
+            <a href="#" target="_blank"><button type="button" class="btn btn-lg btn-warning"><i class="fa fa-github"></i> Github</button></a>
+            <a href="#" target="_blank"><button type="button" class="btn btn-lg btn-warning"><i class="fa fa-linkedin"></i> Linkedin</button></a>
+          </div>
+        </h1>
+      </div>
+    </div>
+
+<!--     <div class="container" id="portfolio-anchor">
+        <h2 class="text-center h2-portfolio">Recent work</h2>
+          <div class="row">
+            <div class="col-lg-6 col-xs-12">
+              <div class="thumbnail work1">
+                <p data-height="300" data-theme-id="light" data-slug-hash="KgJvBG" data-default-tab="result" data-user="carges" data-embed-version="2" data-pen-title="margherita-hack" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/carges/pen/KgJvBG/">margherita-hack</a> by Chiara (<a href="http://codepen.io/carges">@carges</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+                <div class="caption text-center">
+                  <h4 class="h4-caption">Tribute page.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-12">
+              <div class="thumbnail work2">
+                <p data-height="300" data-theme-id="light" data-slug-hash="NbPjYW" data-default-tab="result" data-user="carges" data-embed-version="2" data-pen-title="random-quote-machine" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/carges/pen/NbPjYW/">random-quote-machine</a> by Chiara (<a href="http://codepen.io/carges">@carges</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+                <div class="caption text-center">
+                  <h4 class="h4-caption">Random Quote Machine.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div> -->
+
+    <div class="row center-block">
+      <div class="myimg">
+        <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Panorama_fjellheisen-improved.jpg/1920px-Panorama_fjellheisen-improved.jpg" alt="image"/>
+        <div class="container text-center"><p>Panoramic view of Tromsø.</p></div>
+      </div>
+    </div>
+
+    <div class="row center-block mydiv-about">
+      <a href="" id="about-anchor"></a>
+      <div class="container text-center" id="about"><p>I studied Astronomy in Italy, and then moved to Northern-Norway where I enrolled in a 2-year master in Space Physics.<br>After completing my studies, I worked almost 3 years at the Arctic University of Norway as a researcher and, developed a software to forecast geomagnetic activity. Programming has always been my passion and that's why I aim at becoming a web developer with the help of <a href="https://www.freecodecamp.com/" target="_blank">Free Code Camp</a>!</p></div>
+    </div>
+
+    <footer class="text-center myfooter">
+      &copy; Copyright 2016
+    </footer>
+  </body>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </html>
