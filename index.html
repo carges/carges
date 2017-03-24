@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <!-- Latest compiled and minified CSS -->
@@ -31,8 +32,9 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-              <li><a href="#about-anchor">About</a></li>
+              <!-- <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li> -->
+              <li class="active"><a href="#about-anchor">About<span class="sr-only">(current)</span></a></li>
+              <!-- <li><a href="#about-anchor">About</a></li> -->
               <li><a href="#portfolio-anchor">Portfolio</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -46,24 +48,74 @@
     <a href="" id="contact-anchor"></a>
     <div class="row center-block mydiv-title">
       <div class="container">
-        <h1>
-          Carges<br>Portfolio<br>
           <div class="btn-group" role="group" aria-label="...">
-            <a href="https://www.freecodecamp.com/carges" target="_blank"><button type="button" class="btn btn-lg btn-warning"><i class="fa fa-free-code-camp"></i> Freecodecamp</button></a>
-            <a href="#" target="_blank"><button type="button" class="btn btn-lg btn-warning"><i class="fa fa-github"></i> Github</button></a>
-            <a href="#" target="_blank"><button type="button" class="btn btn-lg btn-warning"><i class="fa fa-linkedin"></i> Linkedin</button></a>
+            <a href="https://www.freecodecamp.com/carges" target="_blank"><button type="button" class="btn btn-lg btn-warning btn-contacts"><i class="fa fa-free-code-camp"></i> Freecodecamp</button></a>
+            <a href="#" target="_blank"><button type="button" class="btn btn-lg btn-warning btn-contacts"><i class="fa fa-github"></i> Github</button></a>
+            <a href="#" target="_blank"><button type="button" class="btn btn-lg btn-warning btn-contacts"><i class="fa fa-linkedin"></i> Linkedin</button></a>
           </div>
-        </h1>
+        <div class="row  mydiv-about">
+          <a href="" id="about-anchor"></a>
+          <div class="container" id="about"><p class="p-about">I studied Astronomy in Italy, and then moved to Northern-Norway where I enrolled in a 2-year master in Space Physics.<br>After completing my studies, I worked almost 3 years at the Arctic University of Norway as a researcher and, developed a software to forecast geomagnetic activity. Programming has always been my passion and that's why I aim at becoming a web developer with the help of <a href="https://www.freecodecamp.com/" target="_blank">Free Code Camp</a>!</p></div>
+        </div>
       </div>
     </div>
 
     <div class="container" id="portfolio-anchor">
         <h2 class="text-center h2-portfolio">Recent work</h2>
-          
+
+        <div class="row">
+          <div class="col-lg-6 col-xs-12">
+            <div class="thumbnail mywork">
+              <p>The local weather app shows the current weather at the user's locality.</p>
+              <a href="" target="_blank">
+                <img src="local-weather.png" alt="">
+              </a>
+              <div class="caption text-center">
+                <h4 class="h4-caption">Local Weather App</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xs-12">
+            <div class="thumbnail mywork">
+              <p>The pomodoro clock app allows the user to set both the session and the break intervals to properly manage his work.</p>
+              <a href="" target="_blank">
+                <img src="pomodoro.png" alt="">
+              </a>
+              <div class="caption text-center">
+                <h4 class="h4-caption">Pomodoro Clock</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-xs-12">
+            <div class="thumbnail mywork">
+              <p>The calculator app is a simple electronic calculator.</p>
+              <a href="" target="_blank">
+                <img src="calculator.png" alt="">
+              </a>
+              <div class="caption text-center">
+                <h4 class="h4-caption">Calculator</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xs-12">
+            <div class="thumbnail mywork">
+              <p>The tic tac toe app let the user play at the tic tac toe game, either with the computer or with another player.</p>
+              <a href="" target="_blank">
+                <img src="tic-tac-toe.png" alt="">
+              </a>
+              <div class="caption text-center">
+                <h4 class="h4-caption">Tic Tac Toe Game</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </div>
 
-    
-    <footer class="footer">
+    <footer class="text-center myfooter">
       &copy; Copyright 2016
     </footer>
   </body>
