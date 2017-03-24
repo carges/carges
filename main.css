@@ -1,26 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Serif');
-html {
-  position: relative;
-  min-height: 100%;
-}
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Bitter|Open+Sans|Roboto+Condensed');
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 80px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 80px;
-  text-align: center;
-  background-color: rgb(1, 19, 38);
-  color: white;
-  padding: 30px;
-  margin-top: 30px;
-}
-body {
-  font-family: 'PT Serif', serif;
+  font-family: 'Bitter', serif;
   padding-top: 50px;
 }
 p {
@@ -30,6 +10,12 @@ p {
 td {
   text-align: left;
   padding: 5px 10px 5px 10px;
+}
+.p-about {
+  color: white;
+}
+.btn-contacts {
+  margin: 5px;
 }
 .container {
   margin-bottom: 20px;
@@ -46,7 +32,7 @@ td {
 }
 .mydiv-about {
   font-size: 18px;
-  padding: 20px 5px 0px 5px;
+  padding: 20px 5px 0px 0px;
 }
 .mydiv-title {
   background-color: rgb(3, 48, 96);
@@ -54,11 +40,21 @@ td {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.myfooter {
+  background-color: rgb(1, 19, 38);
+  color: white;
+  padding: 30px;
+  margin-top: 30px;
+}
 .myimg {
   box-shadow: 0 0 5px rgb(101, 97, 94);
   padding: 10px 5px 0 5px;
 }
+.mywork {
+  padding: 15px 15px 0px 15px;
+}
 #about {
+  padding-top: 50px;
   font-style: italic;
   font-size: auto;
 }
