@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Serif|Bitter|Open+Sans|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Bitter|Open+Sans|Roboto+Condensed|Lato');
 body {
   font-family: 'Bitter', serif;
   padding-top: 50px;
@@ -39,6 +39,7 @@ td {
   color: rgb(230, 135, 0);
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: "Lato", serif;
 }
 .myfooter {
   background-color: rgb(1, 19, 38);
@@ -55,8 +56,6 @@ td {
 }
 #about {
   padding-top: 50px;
-  font-style: italic;
-  font-size: auto;
 }
 #my-contact {
   border-radius: 5px;
